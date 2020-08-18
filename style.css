@@ -1,3 +1,31 @@
+.some-page-wrapper {
+  margin: 15px;
+
+}
+
+.row {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: auto;
+}
+
+.column {
+text-align:center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.blue-column{
+
+	margin:auto;
+}
+.green-column{
+	margin:auto;
+}
 .nav_it {
 	padding-left: 2vw;
 	padding-right: 2vw;
@@ -16,23 +44,10 @@ p{
 	background: rgb(217,216,233);
 background: linear-gradient(306deg, rgba(217,216,233,1) 0%, rgba(100,157,207,1) 94%);
 }
-.container1 {
-	width: 100%;
-	height: 500px;
-	display: flex;
-	flex-flow: row wrap; 
-	justify-content: center;
-	align-items: center;
+.info_text{
+	font-size: 2vw;
 
 }
-.container1_1 {
-	margin-top: 20vw; /*to be removed*/
-	width: 50%;
-	height: 500px;
-	display: flex;
-	flex-flow: column; nowrap; 
-	justify-content: center;
-	align-items: center;
 	
 }
 body {
