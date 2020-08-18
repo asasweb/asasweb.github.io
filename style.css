@@ -59,7 +59,7 @@ p{
 	position: relative;
 }
 
-}
+
 body {
 	background-image: url("UI/background.png");
 	background-color: #cccccc;
@@ -73,18 +73,34 @@ body {
 .img_containter{
 	position: relative;
 	z-index:1;
+
 }
+
+.carousel-item{
+	height: 80vh;
+}
+
 .crsl_slide{
 	margin: auto;
 	width: 89%;
-}
-.crsl_container{
-	padding-top: 3vw;
+
 }
 
-.carousel-inner img { 
+.crsl_container{
+	padding-top: 3vw;
+
+}
+
+/* .carousel-inner img { 
     max-width:100%;
     max-height:100%;
     width: auto; 
-    height: auto; 
+	height: auto;
+	overflow: hidden;
+} */
+
+
+/* space under carousel */
+.space{
+	height: 20vh;
 }
