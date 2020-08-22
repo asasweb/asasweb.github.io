@@ -104,3 +104,6 @@ body {
 .space{
 	height: 20vh;
 }
+.w-100 {
+	height: 28vw !important;
+}

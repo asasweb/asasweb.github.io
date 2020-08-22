@@ -1,0 +1,13 @@
+shadow box on divs, no bottom.
+border radius emerging is of.
+responsivness, css gred no wrap for the divs, on top of eachother
+carousel size
+widen column div to decrease space 
+
+
+
+
+_________
+
+3 phone nums
+1 email
