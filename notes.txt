@@ -1,3 +1,8 @@
+social media icons on footer
+
+our services > menu on hover + link to new page
+
+
 shadow box on divs, no bottom.
 border radius emerging is of.
 responsivness, css gred no wrap for the divs, on top of eachother
