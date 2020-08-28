@@ -1,137 +1,81 @@
-.some-page-wrapper {
-	margin-bottom: 20vw;
-}
 
-.row {
 
-    margin-right: 0px !important;
-    margin-left: 0px !important;
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	padding: auto;
-}
 
-.column {
-	text-align:center;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-}
-.blue-column{
-	margin:auto;
-}
-.green-column{
-	margin:auto;
-	margin-top: 0px
-}
 .nav_it {
 	padding-left: 2vw;
 	padding-right: 2vw;
 }
-.img {
-	width:100%;
-	height:20vw;
-	border-radius: 3% 3% 0% 0%;
-	filter: drop-shadow(0px -6px 10px #222) ;
 
 
+.container{
+	height: 200vw;
+	border: 2px solid black;
+	display: grid;
+	grid-template-columns:  100%;
+	grid-template-rows:20% 15% 15% 10% 12% 6% 17%;  
+	grid-row-gap: 1vw;
+	grid-column-gap: 1vw;
 }
-p{
-	filter:drop-shadow(0px 6px 10px #222);
-	
-	height:20vw;
-	width: 42.3vw;
-
-	text-align: center;
-	background: rgb(217,216,233);
-	background: linear-gradient(306deg, rgba(217,216,233,1) 0%, rgba(100,157,207,1) 94%);
-	margin-bottom: 0px !important;
-}
-.paragraph{
-	left: 4vw;
-	margin-top: -1vw;
-	position: absolute;
-	border-radius: 10px;
-	background: rgb(217,216,233);
-	background: linear-gradient(306deg, rgba(217,216,233,1) 0%, rgba(100,157,207,1) 94%);
-}
-.paragraph1{
-	right: 4vw;
-	margin-top: -1vw;
-	position: absolute;
-	border-radius: 10px;
-	background: rgb(217,216,233);
-	background: linear-gradient(306deg, rgba(217,216,233,1) 0%, rgba(100,157,207,1) 94%);
-}
-.info_text{
+.container div{
 	font-size: 2vw;
-	position: relative;
+	border: 2px solid black;
 }
 
+.frst{
+	/*/*two colmns one row , two main divs*/
+	display: grid;
+	grid-template-columns: 49% 49%;
 
-body {
-	background-image: url("UI/background.png");
-	background-color: #cccccc;
+	grid-column-gap: 2%;
+	grid-template-rows: 50% 50%;
 }
-.info_link{
-	font-size: 1vw !important;
-	padding: 0 0 0  !important;
-	margin: 2% 35% 2%;
-	max-width: 10vw;
-}
-.img_containter{
-	/*width: 42.3vw;*/
-	position: relative;
-	z-index:1;
-	margin: 0px;
-	margin-left: 4vw;
-    margin-right: 3vw;
-}
-.img_containter1{
-	/*width: 42.3vw;*/
-	position: relative;
-	z-index:1;
-	margin: 0px;
-	margin-left: 3vw;
-    margin-right: 4vw;
+.frst div{
+	border: 2px solid red;
 
 }
-
-.carousel-item{
-	height: 80vh;
+.frst img{
+	width: 100%;
+	height: 100%;
+}
+.frst p{
+	text-align: center;
 }
 
-.crsl_slide{
-	margin: auto;
-	width: 89%;
-
+.scnd div{
+	background-size: contain !important;
 }
 
-.crsl_container{
-	padding-top: 3vw;
-
+.thrd{
+	display: grid;
+	grid-template-columns: 33% 66%;
+	background-image: url("UI/arduino.jpg");
+	background-size: cover;
+}
+.thrd_inf{
+	display: grid;
+	grid-template-rows: 70% 30%;
 }
 
-/* .carousel-inner img { 
-    max-width:100%;
-    max-height:100%;
-    width: auto; 
-	height: auto;
-	overflow: hidden;
-} */
+.frth{
+	display: grid;
+	grid-template-columns: 35% 65%;
+}
+.frth_rating{
+
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+
+}
+@media (min-width: 800px) and (max-width: 850px) {
+	.navbar:not(.top-nav-collapse) {
+		background: #1C2331!important;
+	}
+}
+
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 
 
-/* space under carousel */
-.space{
-	height: 20vh;
-}
-.w-100 {
-	height: 28vw !important;
-}
-.contact-info{
-	font-size: 1.5vw;
-}
+
+
+
