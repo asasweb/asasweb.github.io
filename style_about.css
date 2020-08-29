@@ -38,6 +38,7 @@
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 5vw 10vw 5vw;
+	/*8vw 10vw 6vw*/
 	border: none;
 	border-radius: 10px;
 	margin-top: 6vw;

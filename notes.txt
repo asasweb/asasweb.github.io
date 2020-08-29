@@ -16,3 +16,17 @@ _________
 
 3 phone nums
 1 email
+
+
+
+
+
+carousel first in index..
+round portfolio pics 100%
+scroll team div
+wrapping in first divs
+change font,, font awesome
+team title is out of the div
+
+
+https://www.free-css.com/free-css-templates/page256/multipurpose
