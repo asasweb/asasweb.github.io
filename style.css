@@ -13,7 +13,7 @@
 	border: 2px solid black;
 	display: grid;
 	grid-template-columns:  100%;
-	grid-template-rows:20% 15% 15% 10% 12% 6% 17%;  
+	grid-template-rows:20% 12% 15% 10% 12% 6% 17%;  
 	grid-row-gap: 1vw;
 	grid-column-gap: 1vw;
 }
