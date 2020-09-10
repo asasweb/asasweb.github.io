@@ -1,81 +1,81 @@
-
-
-
-
-.nav_it {
-	padding-left: 2vw;
-	padding-right: 2vw;
-}
-
-
-.container{
-	height: 200vw;
-	/*border: 2px solid black;*/
+.nvbr{
 	display: grid;
-	grid-template-columns:  100%;
-	grid-template-rows:20% 12% 15% 10% 12% 6% 17%;  
-	grid-row-gap: 1vw;
-	grid-column-gap: 1vw;
-}
-.container div{
-	font-size: 2vw;
-	/*border: 2px solid black;*/
-}
-
-.frst{
-	/*/*two colmns one row , two main divs*/
-	display: grid;
-	grid-template-columns: 49% 49%;
-
-	grid-column-gap: 2%;
-	grid-template-rows: 50% 50%;
-}
-.frst div{
-	/*border: 2px solid red;*/
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 25% 75%;
 
 }
-.frst img{
-	width: 100%;
+body{
 	height: 100%;
 }
-.frst p{
+.container{
+	height: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 43% 17% 26% 40% 15% 10% 25%;
+	grid-row-gap: 1%;
+}
+.container div{
+	min-height: 5%;
+	border: 1px solid black;
+}
+.first{
+	background-image: url("UI/first.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+}
+.first img{
+
+}
+.f_title{
+	font-size: 3vw;
+	text-align: right;
+}
+
+.f_text{
+	font-size: 2vw;
+	text-align: right;
+}
+
+.second{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-top: -20px;
+
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+.second div{
+	margin-left: 1vw;
+	margin-right:  1vw;
+	height: 100%;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 60% 40%;
+}
+.second div p{
+	font-size: 3vw;
 	text-align: center;
 }
-
-.scnd div{
-	background-size: contain !important;
-}
-
-.thrd{
+.third{
 	display: grid;
-	grid-template-columns: 33% 66%;
-	background-image: url("UI/arduino.jpg");
-	background-size: cover;
+	grid-template-columns: 45% 55%;
+	background: rgb(5,60,168);
+	background: linear-gradient(306deg, rgba(5,60,168,1) 27%, rgba(65,114,212,1) 52%, rgba(8,41,186,1) 92%);
 }
-.thrd_inf{
+.third div img {
+	width: 100%;
+	height :100%;
+}
+.fourth{
 	display: grid;
-	grid-template-rows: 70% 30%;
-}
-
-.frth{
-	display: grid;
-	grid-template-columns: 35% 65%;
-}
-.frth_rating{
-
-	display: grid;
-	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: 10% 90%;
 
 }
-@media (min-width: 800px) and (max-width: 850px) {
-	.navbar:not(.top-nav-collapse) {
-		background: #1C2331!important;
-	}
+.fourth div p {
+	font-size: 2vw;
+	text-align: center;
 }
-
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
-
-
-
-
-
