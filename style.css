@@ -11,7 +11,7 @@ body{
 	height: 100%;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 43% 10% 26% 40% 26% 10% 25%;
+	grid-template-rows: 29% 10% 26% 40% 26% 10% 25%;
 	grid-row-gap: 1%;
 }
 .container div{
