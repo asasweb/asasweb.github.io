@@ -1,6 +1,6 @@
 .cont{
-	background-image: url(photos/web.jpg);
-	background-color: #cccccc;
+	background-image: url(photos/web.png);
+	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-size: auto;
 	width: 1259px;
@@ -52,7 +52,7 @@
 	font-size: 400%;
 }
 .first-description{
-	color: white;
+	color: green;
 	text-align: right;
 	font-size: 177%;
 	/* margin: auto; */
@@ -85,7 +85,7 @@
 	margin:auto;
 	}
 .second-right p{
-	color: white;
+	color: green;
     font-size: 208%;
 }
 .second-left-img{
