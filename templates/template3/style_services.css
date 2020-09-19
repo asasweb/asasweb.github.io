@@ -1,0 +1,16 @@
+.container{
+	margin:auto;
+	width: 1259px;
+	height: 1600px;
+	margin: auto;
+	display: grid;
+	grid-template-rows: 3% 7% 15% 15% 15% 15% 15% 15%;
+}
+.container div{
+	border: 1px solid black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
