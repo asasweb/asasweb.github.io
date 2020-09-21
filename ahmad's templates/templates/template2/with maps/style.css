@@ -161,17 +161,6 @@
 .third-row,.fourth-row,.fifth-row,.seventh-row,.sixth-row{
 	background-color: #eae7e7;
 }
-.sixth-row{
-	background-image: url("photos/parallax.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.sixth-row img{
-	width: 100%;
-	height: 100%;
-}
 .seventh-row{
 	display: grid;
 	grid-template-columns: 50% 50%;

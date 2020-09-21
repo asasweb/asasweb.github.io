@@ -42,9 +42,32 @@
 }
 .left-2{
 	margin: auto;
+	display: grid;
+	grid-template-rows: 8% 14% 8% 43% 7%;
+	height: 100%;
+	width: 100%;
+	margin-top: 11%;
 }
 
 .left-3, .right-3{
 	display: grid;
 	grid-template-columns: 50% 50%;
+}
+textarea{
+	width: 80%;
+	border-radius: 4%;
+	border: none;
+	resize: none;
+}
+.txt{
+	margin: auto;
+	width: 80%;
+}
+button{
+	background-color: #2196F3;
+    color: white;
+    width: 11%;
+    border-radius: 8%;
+    border: none;
+}
 }
