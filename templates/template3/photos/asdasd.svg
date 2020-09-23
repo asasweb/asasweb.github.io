@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1050" viewBox="0 0 960 1050">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="826.76" y1="466.375" x2="389.428" y2="-36.719" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#af00d5"/>
+      <stop offset="1" stop-color="#a700ed"/>
+    </linearGradient>
+  </defs>
+  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M968-8c-5.692,5.184,10,325,10,325,0,5.523,5.523,31,0,31,0,0,5.568,126-224,118-203.476-7.091-84.845-163.092-296-224-63.8-18.4-96.427-9.629-171.231-111.425C204.39,18.472,245.989-30.532,248-35,252.36-44.686,970.534-10.307,968-8Z"/>
+</svg>

@@ -29,6 +29,9 @@ body{
 .third{
 	display: grid;
 	grid-template-rows: 40% 50% 10%;
+	background-repeat: no-repeat;
+    background-image: url(photos/test.svg);
+    background-size: cover;
 
 }
 .third-1{
@@ -38,13 +41,11 @@ body{
 .third-2{
 	display: grid;
     grid-template-columns: 33% 33% 34%;
-    background-repeat: no-repeat;
-    background-image: url(photos/test.svg);
-    background-size: cover;
+    
 }
-}
+
 .third-2 div{
-	
+	background-color: white;
 }
 .third-2-1,.third-2-2,.third-2-3{
 	position: relative;

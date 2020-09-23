@@ -1,15 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1050" viewBox="0 0 960 1050">
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="660" viewBox="0 0 1366 660">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #293850;
         fill-rule: evenodd;
-        fill: url(#linear-gradient);
+      }
+
+      .cls-1 {
+        stroke-width: 10.2px;
+      }
+
+      .cls-2 {
+        stroke-width: 9.56px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="826.76" y1="466.375" x2="389.428" y2="-36.719" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#af00d5"/>
-      <stop offset="1" stop-color="#a700ed"/>
-    </linearGradient>
   </defs>
-  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M968-8c-5.692,5.184,10,325,10,325,0,5.523,5.523,31,0,31,0,0,5.568,126-224,118-203.476-7.091-84.845-163.092-296-224-63.8-18.4-96.427-9.629-171.231-111.425C204.39,18.472,245.989-30.532,248-35,252.36-44.686,970.534-10.307,968-8Z"/>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <g>
+      <path class="cls-1" d="M3504.88,1639.12l58.05,35.36-35.36,58.05-58.05-35.36Z" transform="translate(-3046 -1115)"/>
+      <path id="Rectangle_4_copy_3" data-name="Rectangle 4 copy 3" class="cls-1" d="M3078.88,1450.12l58.05,35.36-35.36,58.05-58.05-35.36Z" transform="translate(-3046 -1115)"/>
+      <path id="Rectangle_4_copy_2" data-name="Rectangle 4 copy 2" class="cls-1" d="M4043.47,1667.81l66.78-12.73,12.72,66.78-66.77,12.72Z" transform="translate(-3046 -1115)"/>
+      <path id="Rectangle_4_copy" data-name="Rectangle 4 copy" class="cls-1" d="M4194.88,1184.12l58.05,35.36-35.36,58.05-58.05-35.36Z" transform="translate(-3046 -1115)"/>
+      <path id="Polygon_1" data-name="Polygon 1" class="cls-2" d="M3511.81,1222.09l-76.23,38.18v-76.36Z" transform="translate(-3046 -1115)"/>
+      <path id="Polygon_1_copy" data-name="Polygon 1 copy" class="cls-2" d="M3955.3,1483.87l-78.84-32.46,57.62-50.11Z" transform="translate(-3046 -1115)"/>
+      <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-2" d="M4363.46,1774.87l14.32-84.04,61.56,45.18Z" transform="translate(-3046 -1115)"/>
+    </g>
+  </g>
 </svg>
