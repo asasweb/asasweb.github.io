@@ -78,9 +78,11 @@
 
 .third-row{
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns:  10% 50% 40%;
 }
-
+.third-1st{
+	background-color: orange;
+}
 .third-right{
 	margin-right: 0%;
 	margin-left: -37%;
