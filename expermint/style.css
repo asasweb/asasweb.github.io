@@ -11,7 +11,7 @@
   background-color: rgb(224, 224, 224);
   position: absolute;
   left: 33px;
-  top: 2030px;
+  top: 2008px;
   width: 46px;
   height: 48px;
   z-index: 35;
@@ -33,7 +33,7 @@
   background-color: rgb(0, 17, 238);
   position: absolute;
   left: 34px;
-  top: 1868px;
+  top: 1860px;
   width: 46px;
   height: 48px;
   z-index: 33;
@@ -90,7 +90,7 @@
   top: 1791px;
   z-index: 29;
 }
-.شارع_عقبة_،_بجانب_محطة_القطار {
+.Location {
   font-size: 30px;
   font-family: "Myriad Arabic";
   color: rgb(5, 101, 0);
@@ -104,7 +104,7 @@
   top: 1682.764px;
   z-index: 28;
 }
-.العنوان: {
+.Address {
   font-size: 30px;
   font-family: "Myriad Arabic";
   color: rgb(5, 101, 0);
@@ -138,17 +138,18 @@
   z-index: 25;
 }
 .Ellipse_5_copy {
-  border-radius: 50%;
   background-image: -moz-linear-gradient( 125deg, rgb(249,224,13) 0%, rgb(255,255,34) 100%);
   background-image: -webkit-linear-gradient( 125deg, rgb(249,224,13) 0%, rgb(255,255,34) 100%);
   background-image: -ms-linear-gradient( 125deg, rgb(249,224,13) 0%, rgb(255,255,34) 100%);
   position: absolute;
-  left: -31px;
-  top: 399px;
-  width: 92px;
+  left: -1px;
+  top: 202px;
+  width: 57px;
   height: 92px;
   z-index: 24;
+  border-radius: 50%;
 }
+
 .Ellipse_5_copy_3 {
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
@@ -240,14 +241,13 @@
   z-index: 15;
 }
 .Ellipse_5_copy_4 {
-  border-radius: 50%;
   background-image: -moz-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   background-image: -webkit-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   background-image: -ms-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   position: absolute;
-  left: 1260px;
+  left: 1246px;
   top: 833px;
-  width: 154px;
+  width: 121px;
   height: 154px;
   z-index: 14;
 }
@@ -294,7 +294,7 @@
   height: 638px;
   z-index: 10;
 }
-.توفر_لكم_صيدلية_الشفاء_كل_ما_تحتاجومه_من_الأدوي {
+.Text_2 {
   font-size: 24px;
   font-family: "Myriad Arabic";
   color: rgb(4, 88, 0);
@@ -311,13 +311,13 @@
 .Rectangle_2 {
   background-color: rgb(208, 251, 212);
   position: absolute;
-  left: -125px;
-  top: 695px;
-  width: 1669px;
-  height: 962px;
+  left: 0px;
+  top: 705px;
+  width: 1366px;
+  height: 949px;
   z-index: 8;
 }
-.contact {
+.Contact_Us {
   font-size: 30px;
   font-family: "Myriad Arabic";
   color: rgb(255, 255, 255);
@@ -328,7 +328,7 @@
   top: 17.506px;
   z-index: 7;
 }
-.توفر_لكم_صيدلية_الشفاء_كل_ما_تحتاجومه_من_الأدوي {
+.Text_1 {
   font-size: 24px;
   font-family: "Myriad Arabic";
   color: rgb(4, 88, 0);
@@ -342,7 +342,7 @@
   top: 472.669px;
   z-index: 6;
 }
-.خدماتنـــا {
+.Our_Services {
   font-size: 30px;
   font-family: "Myriad Arabic";
   color: rgb(255, 255, 255);
@@ -353,7 +353,7 @@
   top: 20px;
   z-index: 5;
 }
-.صيدلية_الشفاء {
+.Name {
   font-size: 24px;
   font-family: "Myriad Arabic";
   color: rgb(255, 255, 255);
@@ -367,7 +367,7 @@
   top: 205.295px;
   z-index: 4;
 }
-.الرئيسية {
+.Main {
   font-size: 30px;
   font-family: "Myriad Arabic";
   color: rgb(255, 255, 255);
@@ -379,14 +379,13 @@
   z-index: 3;
 }
 .Ellipse_1 {
-  border-radius: 50%;
   background-image: -moz-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   background-image: -webkit-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   background-image: -ms-linear-gradient( 144deg, rgb(7,142,0) 0%, rgb(10,201,0) 100%);
   position: absolute;
-  left: 774px;
-  top: -249px;
-  width: 626px;
-  height: 626px;
+  left: 773px;
+  top: 0px;
+  width: 593px;
+  height: 377px;
   z-index: 2;
 }
