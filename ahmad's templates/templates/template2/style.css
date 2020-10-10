@@ -1,4 +1,9 @@
-
+body{
+	margin: 0;
+	width: 1259px;
+	height: 1800px;
+	
+}
 .container{
 	margin: auto;
 	width: 1259px;
