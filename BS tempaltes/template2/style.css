@@ -192,3 +192,66 @@ a {
 	color: #04172b;
 	text-align: center;
 }
+/*contact page*/
+.contact-first-row{
+	height: 25%;
+}
+.contact-first-row div{
+	border:1px solid black;
+}
+.contact-first-row-right{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.contact-first-row-right p{
+	text-align: center;
+}
+.contanct-first-sub-row{
+	height: 100%;
+}
+.contanct-first-sub-row p{
+	text-align: center;
+}
+.col-left{
+	margin: auto;
+}
+
+.contact-second-row{
+	background-color: #04172b;
+	height: 50%;
+}
+.contact-third-row {
+	height: 5%;
+}
+
+.container-fluid div{
+	border:1px solid black;
+}
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	border-radius: 4px; /* Rounded borders */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: #04172b;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: #04102b;
+}
+label{
+	color: white;
+	float: right;
+}
+input,textarea{
+	background-color: lightgrey;
+}
+form{
+	text-align: center;
+}
