@@ -9,7 +9,7 @@ html{
 	height: 40%;
 }
 .first-col{
-		margin: auto;
+	margin: auto;
 	text-align: center;
 }
 .first-col-p{
@@ -100,6 +100,12 @@ a {
 }
 
 
+
+
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -128,4 +134,61 @@ a {
 	.second-row{
 		height: 25%;
 	}
+}
+
+
+/*services style*/
+.main-row{
+	height: 20%;
+}
+
+.main-row-title{
+	margin: auto;
+	text-align: center;
+}
+.main-row p{
+	color: #04172b;
+	font-size: 40px;
+}
+.parallax-1,.parallax-2,.parallax-3{
+	height: 40%;
+	border:1px solid black;
+}
+.service-1,.service-2,.service-3{
+	height: 30%;
+	border:1px solid red;
+}
+
+.parallax-1{
+	background-image: url("photos/parallax-1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-2{
+	background-image: url("photos/parallax-2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.parallax-3{
+	background-image: url("photos/parallax-3.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.parallax-1-p,.parallax-2-p,.parallax-3-p{
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+}
+.service-1-p,.service-2-p,.service-3-p{
+	font-size: 30px;
+	color: #04172b;
+	text-align: center;
 }
