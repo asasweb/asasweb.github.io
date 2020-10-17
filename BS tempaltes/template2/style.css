@@ -1,0 +1,131 @@
+body, html, .container-fluid {
+	height: 100%;
+}
+html{
+	scroll-behavior: smooth;
+}
+.frst-row{
+
+	height: 40%;
+}
+.first-col{
+		margin: auto;
+	text-align: center;
+}
+.first-col-p{
+	color:  #04172b;
+	font-weight: bold;
+}
+.titles{
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 62px -19px rgba(0,0,0,0.68);
+	-moz-box-shadow: 0px 0px 62px -19px rgba(0,0,0,0.68);
+	box-shadow: 0px 0px 62px -19px rgba(0,0,0,0.68);
+}
+
+.first-row{
+	height: 60%;
+	background-color: white;
+}
+
+.scnd-row{
+	height: 15%;
+	
+}
+.btn-div{
+	text-align: center;
+	margin: auto;
+}
+.btn-div button{
+	background-color:#04172b;
+}
+
+
+
+
+
+.second-row{
+	margin-top: 10%;
+	height: 50%;
+	width: 100%;
+
+
+}
+
+.third-row{
+	height: 30%;
+}
+.fourth-row{
+	height: 30%;
+	background-color: #04172b;
+	color: white;
+}
+.fourth-row div{
+	border: 1px solid black;
+}
+.location{
+	text-align: center;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: green;
+}
+.row{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.bg-light{
+	background: rgb(130,208,139);
+	background: linear-gradient(90deg, rgba(4,23,43,1) 0%, rgba(4,23,43,1) 66%);
+}
+a {
+	color: white !important;
+}
+.navbar-nav > li{
+	margin-left:30px;
+	margin-right:30px;
+}
+
+
+
+
+
+.fourth-sub{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.fifth-row{
+	background-color: #04172b;
+	color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.first-row{
+		height: 61% !important;
+	}
+
+	.titles{
+		margin-top: 20px;
+	}
+	.second-row{
+		height: 61% !important;
+	}
+}
+
+
+@media only screen and (max-width: 769px) {
+
+	.first-row{
+		height: 27%;
+	}
+
+	.titles{
+		margin-top: 20px;
+	}
+	.second-row{
+		height: 25%;
+	}
+}
