@@ -4,6 +4,9 @@ body, html, .container-fluid {
 html{
 	scroll-behavior: smooth;
 }
+.container-fluid{
+	padding: 0 !important;
+}
 .frst-row{
 
 	height: 40%;
@@ -134,6 +137,9 @@ a {
 	.second-row{
 		height: 25%;
 	}
+	.contact-third-row{
+		height: 12% !important;
+	}
 }
 
 
@@ -194,7 +200,9 @@ a {
 }
 /*contact page*/
 .contact-first-row{
-	height: 25%;
+	height: 29%;
+	background-color: #04172b;
+	color: white;
 }
 .contact-first-row div{
 	border:1px solid black;
@@ -218,12 +226,16 @@ a {
 
 .contact-second-row{
 	background-color: #04172b;
-	height: 50%;
+	height: 57%;
 }
 .contact-third-row {
 	height: 5%;
+	background-color: #04172b;
+	color: white;
 }
-
+.contact-third-row p{
+	margin: 0;
+}
 .container-fluid div{
 	border:1px solid black;
 }
@@ -243,7 +255,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-	background-color: #04102b;
+	background-color: #0410   2b;
 }
 label{
 	color: white;
