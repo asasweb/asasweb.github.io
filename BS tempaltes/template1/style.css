@@ -1,5 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
+	font-family: FrutigerLT;
 }
 html{
 	scroll-behavior: smooth;
@@ -122,3 +123,42 @@ a {
 		height: 25%;
 	}
 }
+
+
+@font-face {
+    font-family: 'FrutigerLT';
+    src: url('fonts/FrutigerLTArabic-55Roman.eot');
+    src: url('fonts/FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FrutigerLTArabic-55Roman.woff2') format('woff2'),
+        url('fonts/FrutigerLTArabic-55Roman.woff') format('woff'),
+        url('fonts/FrutigerLTArabic-55Roman.ttf') format('truetype'),
+        url('fonts/FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
+}
+@font-face {
+	font-family: 'Hacen Samra';
+	src: url('HacenSamra.eot');
+    src: url('fonts/HacenSamra.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HacenSamra.woff2') format('woff2'),
+        url('fonts/HacenSamra.woff') format('woff'),
+        url('fonts/HacenSamra.ttf') format('truetype'),
+        url('fonts/HacenSamra.svg#HacenSamra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+  font-family: FontName1;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName1'), url('fontname1.ttf') format('truetype');
+}
+@font-face {
+  font-family: FontName2;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName2'), url('fontname2.ttf') format('truetype');
+}
+@font-face {
+  font-family: FontName3;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName3'), url('fontname3.ttf') format('truetype');
+}
+*/

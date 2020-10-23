@@ -1,5 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
+	font-family: FrutigerLT;
 }
 html{
 	scroll-behavior: smooth;
@@ -122,6 +123,8 @@ a {
 	.second-row{
 		height: 61% !important;
 	}
+
+	
 }
 
 
@@ -235,6 +238,9 @@ a {
 }
 .contact-third-row p{
 	margin: 0;
+}
+.map{
+	height: 100%;
 }
 .container-fluid div{
 	border:1px solid black;

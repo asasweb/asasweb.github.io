@@ -1,5 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
+	font-family: FrutigerLT;
 }
 html{
 	scroll-behavior: smooth;
@@ -169,6 +170,31 @@ a {
 	margin-right:30px;
 }
 
+
+
+
+
+/*contact css*/
+.contact-first-row{
+	height: 83%;
+	background-color: #eae7e7;
+
+}
+.contact-second-row{
+	height: 8%;
+	background-color: #eae7e7;
+
+}
+
+.contact-map{
+	height: 75%;
+	border: 5px solid blue;
+	margin-top: 10%;
+}
+.contact-location{
+	    margin: auto;
+    margin-top: 50%;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
