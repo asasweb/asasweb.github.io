@@ -1,6 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
-	font-family: FrutigerLT;
+	font-family: theSans;
 }
 html{
 	scroll-behavior: smooth;
@@ -148,10 +148,11 @@ a {
 
 /*services style*/
 .main-row{
-	height: 20%;
+	height: 30%;
 }
 
 .main-row-title{
+	
 	margin: auto;
 	text-align: center;
 }
@@ -160,12 +161,13 @@ a {
 	font-size: 40px;
 }
 .parallax-1,.parallax-2,.parallax-3{
-	height: 40%;
+	height: 60%;
 	border:1px solid black;
 }
 .service-1,.service-2,.service-3{
-	height: 30%;
+	height: 50%;
 	border:1px solid red;
+	align-items: center;
 }
 
 .parallax-1{
@@ -194,7 +196,7 @@ a {
 	text-align: center;
 	margin: auto;
 	color: white;
-	font-size: 40px;
+	font-size: 75px;
 }
 .service-1-p,.service-2-p,.service-3-p{
 	font-size: 30px;
