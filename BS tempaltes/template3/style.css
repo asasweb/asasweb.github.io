@@ -199,8 +199,14 @@ a {
 	}
 	.contact-third-row{
 		height: 12% !important;
+		    text-align: center;
+	}
+	input[type=submit] {
+    
+    margin-right: 0 !important;
 	}
 }
+
 
 
 /*services style*/

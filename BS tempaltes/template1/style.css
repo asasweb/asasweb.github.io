@@ -109,6 +109,9 @@ a {
 	.first-row{
 		height: 61% !important;
 	}
+	.first-row-p, .first-row-p1, .second-row-p, .location{
+		font-size: 20px;
+	}
 
 	.titles{
 		margin-top: 20px;
