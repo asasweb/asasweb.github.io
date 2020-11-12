@@ -1,6 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
-	font-family: thesans;
+	font-family: FrutigerLT !important;
 	width: 100%;
 	background-color: #f5f5f5;
 }

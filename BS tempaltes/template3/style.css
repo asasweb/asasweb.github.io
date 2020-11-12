@@ -1,6 +1,6 @@
 body, html, .container-fluid {
 	height: 100%;
-	font-family: theSans;
+	font-family: FrutigerLT !important;
 }
 html{
 	scroll-behavior: smooth;
