@@ -5,6 +5,9 @@ body, html, .container-fluid {
 html{
 	scroll-behavior: smooth;
 }
+li{
+	list-style: none;
+}
 .container-fluid{
 	padding: 0 !important;
 }
@@ -173,15 +176,53 @@ a {
 	.first-row{
 		height: 61% !important;
 	}
+	.titles-image-left, .titles-image-right, .titles-image-middle{
+		background-size: contain !important;
+		height: 76%;
+	}
 
+		.first-row p{
+	
+		    margin: auto;
+    		margin-top: 5%;
+			}
+	.titles-p-right{
+		margin-top: -7%;
+	}
 	.titles{
 		margin-top: 20px;
 	}
 	.second-row{
 		height: 61% !important;
 	}
-
-	
+	.fourth-sub{
+		text-align: center;
+	}
+	.fourth-row{
+		    height: 41%;
+	}
+	li{
+		list-style: none;
+	}
+	.index-main-row-title
+	{
+		    color: white !important;
+    float: right !important;
+     padding-left: 0% !important; 
+    text-align: center !important;
+    /* font-size: 40px; */
+    padding-top: 9% !important;
+	}
+	.frst-row{
+		height: 14%;
+	}
+	.titles{
+		width: 52% !important;
+		height: 34% !important;
+	}
+	.index-main-row {
+    height: 33%;
+	}
 }
 
 
