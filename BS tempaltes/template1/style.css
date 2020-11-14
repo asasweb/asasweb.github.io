@@ -79,6 +79,12 @@ border-radius: 3%;
 .third-row{
 	height: 30%;
 }
+.fifth-row{
+	background-color: #04172b;
+	color: white;
+	background: rgb(130,208,139);
+	background: linear-gradient(90deg, rgba(130,208,139,1) 0%, rgba(12,176,42,1) 66%);
+}
 .location{
 	text-align: center;
 	vertical-align: middle;
