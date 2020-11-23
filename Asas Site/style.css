@@ -1,199 +1,120 @@
-.nvbr{
-	display: grid;
-	grid-template-columns: 80% 20%;
-	grid-template-rows: 25% 75%;
+body, html, .container-fluid {
+	height: 100%;
+	font-family: FrutigerLT !important;
+}
+html{
+	scroll-behavior: smooth;
+}
 
+.container-fluid, .row{
+	padding: 0 !important;
+	margin: 0 !important;
 }
-body{
-	height: 100%;
-}
-.container{
-	height: 100%;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 29% 10% 26% 40% 26% 10% 25%;
-	grid-row-gap: 1%;
-}
-.container div{
-	min-height: 5%;
+div {
 	border: 1px solid black;
 }
-.first{
-	background-image: url("UI/first.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 50% 50%;
-}
-.first img{
 
+/*first row*/
+
+.index-first-row{
+	height: 88%;
+	margin: 0 !important;
 }
-.f_title{
-	font-size: 3vw;
+.index-first-row-title{
+	height: 55%;
+}
+.index-first-row-title h1{
 	text-align: right;
+    padding-top: 7%;
+    padding-right: 4%;
+    font-size: 5vw;
 }
 
-.f_text{
-	font-size: 2vw;
-	text-align: right;
+.index-first-row-paragraph{
+	width: 68%;
+    text-align: right;
+    float: right;
+}
+.index-first-row-paragraph h2{
+	padding-right: 7%;
 }
 
-.second{
+/*first row*/
 
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	margin-top: -6%;
 
-	padding-bottom: 0px;
-	margin-bottom: 6%;
+/*second row*/
+.index-second-row {
+	height: 20%;
 }
 
- .scnd_title{
-margin-bottom: 7%;
- 	}
-.second > div{
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+
+/*second row*/
+.index-second-row{
+	height: 20%;
 }
-.second div{
-	border-radius: 4%;
-	margin-left: 1vw;
-	margin-right:  1vw;
-	height: 100%;
-	background-color: white;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 50% 50%;
+
+
+
+
+.bg-light{
+	background: rgb(130,208,139);
+	background: linear-gradient(90deg, rgba(130,208,139,1) 0%, rgba(12,176,42,1) 66%);
 }
-.second div p{
-	font-size: 3vw;
-	text-align: center;
+a {
+	color: white !important;
 }
-.scnd_count{
-	margin-top: 8%;
-	font-size: 4vw !important;
+.navbar-nav > li{
+	margin-left:30px;
+	margin-right:30px;
 }
-.third{
-	display: grid;
-	grid-template-columns: 45% 55%;
-	background: rgb(19,99,171);
-background: linear-gradient(90deg, rgba(19,99,171,1) 10%, rgba(50,149,238,1) 57%, rgba(54,74,191,1) 78%);
-}
-.third div img {
-	width: 50%;
-	height :50%;
-	margin-left: 25%;
-	margin-top: 15%;
-}
-.shop_sign{
-	margin:auto;
-	text-align: center;
-	opacity:  1;
-}
-.shop_sign:hover{
-	margin:auto;
-	text-align: center;
-	opacity: 1;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
 
 }
-.slide-right:hover {
-	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-}
-@keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-}
 
-.fourth{
-	display: grid;
-	grid-template-rows: 10% 90%;
+
+@media only screen and (max-width: 769px) {
+
 
 }
-.fourth div p {
-	font-size: 2vw;
-	text-align: center;
-}
-.fifth{
-	/*background-image: url("UI/fifth_background.jpg");*/
-	  background-image:
-    linear-gradient(to left, rgba(48, 123, 241, 0.72), rgba(117, 19, 93, 0)),
-    url('UI/fifth_background.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 100%;
-}
-.sub_fifth{
-	text-align: center;
-	font-size: 2vw;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 60% 40%;
-	color: white;
-}
-.sub_fifth p{
-	margin-top: 2vw;
-}
-.blog_fifth p{
-	font-size: 3vw;
-	margin-left: 2.5vw;
-}
-.background-tint {
-  background-color: rgba(200,100,0,.5);
-  background-blend-mode: multiply;
-}
-.seventh{
-	font-size: 1.5vw;
 
-	color: white;
-	display: grid;
-	grid-template-columns: 50% 25% 25%;
-	background: rgb(65,140,208);
-background: linear-gradient(90deg, rgba(65,140,208,1) 49%, rgba(59,76,184,1) 78%);
+@font-face {
+    font-family: 'FrutigerLT';
+    src: url('fonts/FrutigerLTArabic-55Roman.eot');
+    src: url('fonts/FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FrutigerLTArabic-55Roman.woff2') format('woff2'),
+        url('fonts/FrutigerLTArabic-55Roman.woff') format('woff'),
+        url('fonts/FrutigerLTArabic-55Roman.ttf') format('truetype'),
+        url('fonts/FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
 }
-.seventh_map{
-	display: grid;
-	grid-template-rows: 10% 70% 10% 10%;
+@font-face {
+	font-family: 'Hacen Samra';
+	src: url('HacenSamra.eot');
+    src: url('fonts/HacenSamra.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HacenSamra.woff2') format('woff2'),
+        url('fonts/HacenSamra.woff') format('woff'),
+        url('fonts/HacenSamra.ttf') format('truetype'),
+        url('fonts/HacenSamra.svg#HacenSamra') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-.mapper{
-	width: 70%;
-	height: 100%;
+/*
+@font-face {
+  font-family: FontName1;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName1'), url('fontname1.ttf') format('truetype');
 }
-.sub_map1{
-	display: grid;
-	grid-template-columns: 15% 85%
+@font-face {
+  font-family: FontName2;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName2'), url('fontname2.ttf') format('truetype');
 }
-.sub_map2{
-	display: grid;
-	grid-template-columns: 15% 15% 15% 15% 15% 15% 10%;
+@font-face {
+  font-family: FontName3;
+  src: url("fonts/fontname1.eot"); 
+  src: local('fonts/FontName3'), url('fontname3.ttf') format('truetype');
 }
-.seventh img{
-	width: 50%;
-	height: 100%;
-	margin-left: 25%;
-	border-radius: 50%;
-
-}
+*/
