@@ -294,6 +294,103 @@ a {
 	margin-right:30px;
 }
 
+
+/*--------------------------------------main*/
+
+
+.blog-container{
+  height: 2000px;s
+}
+.blog-first-row{
+  height: 20%;
+}
+.blog-second-row{
+  height: 5%;
+}
+
+.blog-second-row-container{
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*_--------------services----------------*/
+
+
+.services-first-row{
+  height: 90%
+}
+.services-filter-row{
+  height: 14.28%;
+}
+.filter-row{
+      height: 30%;
+    width: 80%;
+    margin: auto !important;
+    margin-top: 2% !important;
+}
+
+
+.filtered{
+  display: none !important;
+}
+.show{
+  display: block !important;
+}
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+
+.services-filter-title{
+height: 50%;
+text-align: left;
+}
+.services-filter-button{
+  height: 50%;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------services--------------*/
+
+
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 

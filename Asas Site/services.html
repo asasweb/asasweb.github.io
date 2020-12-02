@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+
+
+
+
+
+
+
+
+
+
+
+	<title>Hello, world!</title>
+</head>
+<body>
+	
+	<div class="container-fluid">
+
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light sticky">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">صيدلية شفاء</a>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+				<ul class="navbar-nav mt-2 mt-lg-0">
+
+					<li class="nav-item active">
+						<a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+					</li>
+
+				</ul>
+
+			</div>
+		</nav>
+
+
+
+
+
+
+
+
+		<div class="row services-first-row">
+				
+				<div class="col-8 ali">
+					
+					<div class="filter-row design row filtered">
+						<div class="row services-filter-title">
+							<h1>تصميم المواقع</h1>
+							
+						</div>
+						<div class="row services-filter-button">
+							<button class="btn active"> <a href="">إقرأ المزيد</a></button>
+							
+						</div>
+					</div>
+					<div class="filter-row design row filtered">
+						2
+					</div>
+					<div class="filter-row  design row filtered">
+						3
+					</div>
+					
+					<div class="filter-row row filtered web"  ">
+						4
+					</div>
+					<div class="filter-row row filtered web"  ">
+						5
+					</div>
+					<div class="filter-row row filtered web"  ">
+						6
+					</div>
+					<div class="filter-row row filtered dev"  ">
+						7
+					</div>
+					<div class="filter-row row filtered dev"  ">
+						8
+					</div>
+					<div class="filter-row row filtered dev"  ">
+						9
+					</div>
+					<div class="filter-row row filtered camera"  ">
+						10
+					</div>
+					<div class="filter-row row filtered camera"  ">
+						11
+					</div>
+					<div class="filter-row row filtered camera"  ">
+						12
+					</div>
+					<div class="filter-row row filtered courses"  ">
+						13
+					</div>
+					<div class="filter-row row filtered courses"  ">
+						14
+					</div>
+					<div class="filter-row row filtered courses"  ">
+						15
+					</div>
+					<div class="filter-row row filtered counseling"  ">
+						16
+					</div>
+					<div class="filter-row row filtered counseling"  ">
+						17
+					</div>
+					<div class="filter-row row filtered counseling"  ">
+						18
+					</div>
+					<div class="filter-row row filtered ads"  ">
+						19
+					</div>
+					<div class="filter-row row filtered ads"  ">
+						20
+					</div>
+					<div class="filter-row row filtered ads"  ">
+						21
+					</div>
+
+
+				</div>
+
+				<div class="col-4 " id="buttons-filter">
+					<div class="row services-filter-row">
+					</div>
+					<div class="row services-filter-row">
+					</div>
+						<button class="btn active" onclick="filterSelection('design')"> filter 1</button>
+						<button class="btn" onclick="filterSelection('web')"> filter 2</button>
+					<div class="row services-filter-row">
+						<button class="btn" onclick="filterSelection('dev')"> filter 3</button>
+					</div>
+					<div class="row services-filter-row">
+						<button class="btn" onclick="filterSelection('camera')"> filter 4</button>
+					</div>
+					<div class="row services-filter-row">
+						<button class="btn" onclick="filterSelection('courses')"> filter 5</button>
+					</div>
+					<div class="row services-filter-row">
+						<button class="btn" onclick="filterSelection('counseling')"> filter 6</button>
+					</div>
+					<div class="row services-filter-row">
+						<button class="btn" onclick="filterSelection('ads')"> filter 7</button>
+					</div>
+
+				</div>
+		</div>
+
+
+
+	</div>
+	
+	<script type="text/javascript">
+		
+
+
+
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filtered");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("buttons-filter");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+	</script>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
