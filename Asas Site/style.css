@@ -65,6 +65,7 @@ html{
 .index-counter-row{
   height: 50%;
   text-align: center;
+  padding-top: 8% !important;
 
 }
 .index-counter-row h1,.index-counter-row h2{
@@ -212,6 +213,12 @@ html{
 }
 .index-sixth-row-blog{
   height: 50%;
+  color: white;
+  padding-top: 15% !important;
+}
+.index-sixth-row-button{
+  height: 50%;
+  padding: 0;
 }
 .index-blog-title{
   padding-left: 9%;
@@ -259,10 +266,10 @@ html{
 }
 .index-up-buttons{
   border-radius: 50% !important;
-    margin-top: 3%;
-    font-weight: bolder !important;
-    font-size: 20px !important;
-    z-index: 1000;
+  margin-top: 3%;
+  font-weight: bolder !important;
+  font-size: 20px !important;
+  z-index: 1000;
 }
 
 .index-map{
@@ -430,138 +437,138 @@ html{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-/*_________first-row-_________*/
-.index-first-row{
-  height: 37% ;
-}
-.index-first-row-left{
-  display: none;
-}
-.index-first-row-title{
-  height: 39%;
-  margin-top: 10%;
-}
-.index-first-row-title h1{
-font-size: 25px;
-}
-.index-first-row-paragraph{
-  width: 100%;
-  font-size: 18px;
-  height: 40%
-}
-.index-first-row-paragraph h2{
-  font-size: 18px;
-}
-.index-first-row-right
-{
-  height: 100%;
-}
-/*____________third__________row*/
+  /*_________first-row-_________*/
+  .index-first-row{
+    height: 37% ;
+  }
+  .index-first-row-left{
+    display: none;
+  }
+  .index-first-row-title{
+    height: 39%;
+    margin-top: 10%;
+  }
+  .index-first-row-title h1{
+    font-size: 25px;
+  }
+  .index-first-row-paragraph{
+    width: 100%;
+    font-size: 18px;
+    height: 40%
+  }
+  .index-first-row-paragraph h2{
+    font-size: 18px;
+  }
+  .index-first-row-right
+  {
+    height: 100%;
+  }
+  /*____________third__________row*/
 
-.index-third-row{
-  height: 26%;
+  .index-third-row{
+    height: 26%;
 
-}
-.index-third-row-left{
-  height: 100%;
-}
-.index-third-row-right{
-  display: none;
-}
-#index-shop-button{
-  display: block;
-  margin: auto;
+  }
+  .index-third-row-left{
+    height: 100%;
+  }
+  .index-third-row-right{
+    display: none;
+  }
+  #index-shop-button{
+    display: block;
+    margin: auto;
     margin-top: 20%;
-}
+  }
 
-/*___________fourth________________*/
-.index-fourth-row{
-  height: 7%;
-}
+  /*___________fourth________________*/
+  .index-fourth-row{
+    height: 7%;
+  }
 
-/*_________fifth_________________*/
+  /*_________fifth_________________*/
 
 
-.index-fifth-row{
-  height: 28%;
-}
-.index-fifth-row h2{
-  font-size: 18px !important;
-}
-.index-carousel-button{
-  padding: 0;
-}
-/*____________sixth_____________*/
-.index-sixth-row{
-  height: 50%;
-  text-align: center;
-}
-.index-sixth-row .col{
-  display: none;  
-}
+  .index-fifth-row{
+    height: 28%;
+  }
+  .index-fifth-row h2{
+    font-size: 18px !important;
+  }
+  .index-carousel-button{
+    padding: 0;
+  }
+  /*____________sixth_____________*/
+  .index-sixth-row{
+    height: 50%;
+    text-align: center;
+  }
+  .index-sixth-row .col{
+    display: none;  
+  }
 
-/*___________seveneth______________*/
-.index-seventh-row{
-  height: 10%;
-}
-/*_______________eighth_______________*/
-.index-eighth-row{
-  height: 12%;
-}
+  /*___________seveneth______________*/
+  .index-seventh-row{
+    height: 10%;
+  }
+  /*_______________eighth_______________*/
+  .index-eighth-row{
+    height: 12%;
+  }
 
-/*________index-up-button__________*/
+  /*________index-up-button__________*/
 
-#index-up-botton-div{
-  height: 0% !important;
-}
+  #index-up-botton-div{
+    height: 0% !important;
+  }
 
-.index-map{
-  height: 75%;
-}
-.index-social{
-  height: 10%;
-}
-#index-button{
-  position: fixed;
-  bottom: 40px;
+  .index-map{
+    height: 75%;
+  }
+  .index-social{
+    height: 10%;
+  }
+  #index-button{
+    position: fixed;
+    bottom: 40px;
 
-}
+  }
 
-.index-ninth-row-left{
+  .index-ninth-row-left{
     height: 52%;
-}
-.index-services-footer{
-  display: none;
-}
+  }
+  .index-services-footer{
+    display: none;
+  }
 
 
 
-@media only screen and (max-width: 769px) {
+  @media only screen and (max-width: 769px) {
 
 
-}
+  }
 
 
-@font-face {
-  font-family: 'FrutigerLT';
-  src: url('fonts/FrutigerLTArabic-55Roman.eot');
-  src: url('fonts/FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
-  url('fonts/FrutigerLTArabic-55Roman.woff2') format('woff2'),
-  url('fonts/FrutigerLTArabic-55Roman.woff') format('woff'),
-  url('fonts/FrutigerLTArabic-55Roman.ttf') format('truetype'),
-  url('fonts/FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
-}
-@font-face {
-	font-family: 'Hacen Samra';
-	src: url('HacenSamra.eot');
-  src: url('fonts/HacenSamra.eot?#iefix') format('embedded-opentype'),
-  url('fonts/HacenSamra.woff2') format('woff2'),
-  url('fonts/HacenSamra.woff') format('woff'),
-  url('fonts/HacenSamra.ttf') format('truetype'),
-  url('fonts/HacenSamra.svg#HacenSamra') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: 'FrutigerLT';
+    src: url('fonts/FrutigerLTArabic-55Roman.eot');
+    src: url('fonts/FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FrutigerLTArabic-55Roman.woff2') format('woff2'),
+    url('fonts/FrutigerLTArabic-55Roman.woff') format('woff'),
+    url('fonts/FrutigerLTArabic-55Roman.ttf') format('truetype'),
+    url('fonts/FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
+  }
+  @font-face {
+   font-family: 'Hacen Samra';
+   src: url('HacenSamra.eot');
+   src: url('fonts/HacenSamra.eot?#iefix') format('embedded-opentype'),
+   url('fonts/HacenSamra.woff2') format('woff2'),
+   url('fonts/HacenSamra.woff') format('woff'),
+   url('fonts/HacenSamra.ttf') format('truetype'),
+   url('fonts/HacenSamra.svg#HacenSamra') format('svg');
+   font-weight: normal;
+   font-style: normal;
+ }
 /*
 @font-face {
   font-family: FontName1;
