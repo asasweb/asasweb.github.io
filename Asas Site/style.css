@@ -13,7 +13,39 @@ html{
 /*div {
 	border: 1px solid black;
   }*/
+  /*_nav*/
+  h5{
+    font-size: 15px !important;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0 !important;
+    margin-left: 9px;
+  }
 
+  .navbar-nav a{
+    font-size: 2rem !important;
+    color: black !important;
+  }
+  a.active{
+    background-color: #007bff;
+    margin-bottom: -9px;
+    color: white !important;
+  }
+  .nav-link{
+    margin-left: 32px;
+  }
+  .navbar-brand{
+    width: 6%;
+    /* margin-top: 32px; */
+    height: 0%;
+    margin: 0 !important;
+  }
+  .navbar-brand img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -10%;
+  }
+  /*nav*/
   /*first row*/
 
   .index-first-row{
@@ -22,6 +54,8 @@ html{
    background-image: url("ui/slider-1.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+   margin-top: 4% !important;
+
    color: white;
  }
  .index-first-row-title{
@@ -303,10 +337,11 @@ html{
 
 
   .bg-light{
-   background: rgb(130,208,139);
-   background: linear-gradient(90deg, rgba(130,208,139,1) 0%, rgba(12,176,42,1) 66%);
- }
- a {
+    background: #ffffff;
+    /*background: linear-gradient(90deg, #007bff 0%, #0062cc 66%);*/
+  }
+  
+  a {
    color: white ;
  }
  .navbar-nav > li{
