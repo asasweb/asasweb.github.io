@@ -173,6 +173,7 @@ html{
 }
 .index-carousel-title{
   height: 60%;
+  padding-top: 20%;
 }
 .index-carousel-button{
   height: 40%;
@@ -190,11 +191,37 @@ html{
   background: rgb(19,99,171);
   background: linear-gradient(90deg, rgba(19,99,171,0.9556197478991597) 13%, rgba(116,134,212,1) 90%);
 }
-.index-carousel-footer{
+.index-carousel-footer1{
   height: 50%;
   background-image: url("ui/coding.jpg");
 }
+.index-carousel-footer2{
+  height: 50%;
+  background-image: url("ui/courses.jpg");
+  background-size: cover;
+}
+.index-carousel-footer3{
+  height: 50%;
+  background-image: url("ui/arduino.jpg");
+  background-size: cover;
 
+}
+.index-carousel-footer4{
+  height: 50%;
+  background-image: url("ui/web.jpg");
+  background-size: cover;
+
+}
+.index-carousel-footer5{
+  height: 50%;
+  background-image: url("ui/it.jpg");
+  background-size: cover;
+
+}
+.index-carousel-footer6{
+  height: 50%;
+  background-image: url("ui/coding.jpg");
+}
 #carousel-button{
   color: black !important;
   border-radius: 17%;
