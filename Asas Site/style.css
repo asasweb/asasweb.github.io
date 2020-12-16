@@ -28,8 +28,10 @@ html{
   }
   a.active{
     background-color: #007bff;
-    margin-bottom: -9px;
     color: white !important;
+  }
+  .navbar{
+    padding: 0 !important;
   }
   .nav-link{
     margin-left: 32px;
@@ -172,8 +174,8 @@ html{
   height: 100%;
 }
 .index-carousel-title{
-  height: 60%;
-  padding-top: 20%;
+  height: 45%;
+  padding-top: 12%;
 }
 .index-carousel-button{
   height: 40%;
@@ -187,39 +189,39 @@ html{
   padding: 0 !important;
 }
 .index-carousel-header{
-  height: 50%;
+  height: 40%;
   background: rgb(19,99,171);
   background: linear-gradient(90deg, rgba(19,99,171,0.9556197478991597) 13%, rgba(116,134,212,1) 90%);
 }
 .index-carousel-footer1{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/coding.jpg");
 }
 .index-carousel-footer2{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/courses.jpg");
   background-size: cover;
 }
 .index-carousel-footer3{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/arduino.jpg");
   background-size: cover;
 
 }
 .index-carousel-footer4{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/web.jpg");
   background-size: cover;
 
 }
 .index-carousel-footer5{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/it.jpg");
   background-size: cover;
 
 }
 .index-carousel-footer6{
-  height: 50%;
+  height: 60%;
   background-image: url("ui/coding.jpg");
 }
 #carousel-button{
@@ -305,6 +307,7 @@ html{
 /*eighth-row*/
 .index-eighth-row{
   height: 30%;
+  margin-bottom: 2% !important;
 }
 
 .carousel, .carousel-inner{
@@ -324,6 +327,9 @@ html{
 
 .index-up-button{
   height: 15%;
+  width: 14%;
+  padding-top: 2%;
+
 }
 .index-up-buttons{
   border-radius: 50% !important;
@@ -334,7 +340,7 @@ html{
 }
 
 .index-map{
-  height: 60%;
+  height: 76%;
 }
 .index-social{
   height: 25%
@@ -345,11 +351,32 @@ html{
   }*/
   .index-services-footer {
     text-align: right;
+    padding-top: 6%;
   }
+  .index-footer-services-wrapper{
+    padding-top: 2%;
+    }
   .index-main-footer{
     text-align: right;
+    padding-top: 6%;
   }
-
+  .index-main-footer h3, .index-services-footer h3{
+    font-size: 16px;
+  }
+  .index-footer-row{
+    height: 70%;
+  }
+  .index-footer-social{
+    height: 21%;
+  }
+  .index-social-footer-button{
+    height: 100%;
+  }
+  .social-button-1, .social-button-2, .social-button-3, .social-button-4, .social-button-5, .social-button-6{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  } 
 
 
 
@@ -582,6 +609,7 @@ html{
 
   #index-up-botton-div{
     height: 0% !important;
+
   }
 
   .index-map{
