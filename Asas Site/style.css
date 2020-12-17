@@ -1,6 +1,7 @@
 body, html, .container-fluid {
-	height: 100%;
-	font-family: FrutigerLT !important;
+  height: 100%;
+  font-family: FrutigerLT !important;
+  font-family: HacenSamra !important;
 }
 html{
 	scroll-behavior: smooth;
@@ -36,6 +37,7 @@ html{
   .nav-link{
     margin-left: 32px;
   }
+  
   .navbar-brand{
     width: 6%;
     /* margin-top: 32px; */
@@ -373,20 +375,33 @@ html{
     height: 100%;
   }
   .social-button-1, .social-button-2, .social-button-3, .social-button-4, .social-button-5, .social-button-6{
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
   } 
-
-
-
+  .btn-light{
+    color: #212529;
+    background-color: #efefef;
+    border-color: transparent !important;
+  }
+  .fa-instagram{
+    color: #d22b1a;
+  }
+  .fa-linkedin{
+    color: #18181f;
+  }
+.fa-twitter{
+  color: #007bff9c;
+}
 
 
   /*ninth-row footer*/
   .index-ninth-row a{
-    color: white;
+    color: #007bff
   }
-
+  .index-footer-social a{
+    font-size: 30px;
+  }
 
 
 
