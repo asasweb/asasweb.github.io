@@ -590,6 +590,13 @@ background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
   {
     height: 100%;
   }
+  /*second row*/
+  .index-project{
+    display: none;
+  }
+  .index-second-row {
+    height: 14%;
+  }
   /*____________third__________row*/
 
   .index-third-row{
@@ -605,8 +612,8 @@ background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
   #index-shop-button{
     display: block;
     margin: auto;
-    margin-top: 20%;
-  }
+margin-top: 50%; 
+ }
 
   /*___________fourth________________*/
   .index-fourth-row{
@@ -617,7 +624,7 @@ background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
 
 
   .index-fifth-row{
-    height: 28%;
+    height: 20%;
   }
   .index-fifth-row h2{
     font-size: 18px !important;
@@ -625,9 +632,28 @@ background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
   .index-carousel-button{
     padding: 0;
   }
+  /*last*/
+  .index-carousel-col{
+    height: 100%;
+    margin-top: 0;
+  }
+  .index-carousel-footer{
+        height: 51%;
+  }
+  .index-carousel-header{
+    height: 50%;
+  }
+  #carousel-button{
+    font-size: 12px;
+    color: black !important;
+    border-radius: 10%;
+    width: 80%;
+    font-weight: bold;
+    margin-top: 19px;
+  }
   /*____________sixth_____________*/
   .index-sixth-row{
-    height: 50%;
+    height: 37%;
     text-align: center;
   }
   .index-sixth-row .col{
