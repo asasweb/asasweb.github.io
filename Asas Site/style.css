@@ -28,7 +28,7 @@ html{
     color: black !important;
   }
   a.active{
-    background-color: #007bff;
+    background-color: #0383bf;
     color: white !important;
   }
   .navbar{
@@ -123,8 +123,7 @@ html{
 
 .index-third-row{
   background: rgb(19,99,171);
-  background: linear-gradient(90deg, rgba(19,99,171,1) 10%, rgba(116,134,212,1) 79%);
-  height: 62%;
+background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
   color: white;
 
 }
@@ -182,6 +181,10 @@ html{
 .index-carousel-title{
   height: 45%;
   padding-top: 12%;
+  color: white;
+}
+.index-carousel-header a {
+  color: black;
 }
 .index-carousel-button{
   height: 40%;
@@ -199,8 +202,7 @@ html{
 .index-carousel-header{
   height: 40%;
   background: rgb(19,99,171);
-  background: linear-gradient(90deg, rgba(19,99,171,0.9556197478991597) 13%, rgba(116,134,212,1) 90%);
-}
+    background: linear-gradient(128deg, #1462b5 13%, #163958 147%);}
 .index-carousel-footer1{
   height: 60%;
   background-image: url("ui/coding.jpg");
@@ -234,7 +236,7 @@ html{
 }
 #carousel-button{
   color: black !important;
-  border-radius: 17%;
+  border-radius: 10%;
 }
 
 
@@ -284,8 +286,10 @@ html{
 }
 .index-sixth-row-blog{
   height: 50%;
-  color: white;
-  padding-top: 15% !important;
+    color: white;
+    padding-top: 15% !important;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
 }
 .index-sixth-row-button{
   height: 50%;
@@ -307,7 +311,8 @@ html{
 }
 .index-seventh-row h1{
   margin: auto;
-  color: black !important;
+  color: grey !important;
+  font-weight: bold;
 }
 /*seventh-row*/
 
@@ -329,8 +334,9 @@ html{
 .index-ninth-row{
   height: 75%;
   background: rgb(19,99,171);
-  background: linear-gradient(90deg, rgba(19,99,171,1) 10%, rgba(116,134,212,1) 79%);
-  color: white;
+    background: rgb(19,99,171);
+    background: linear-gradient(128deg, #3878bd 10%, rgb(6, 30, 134) 79%);
+      color: white;
 }
 
 .index-up-button{
@@ -426,7 +432,15 @@ html{
    margin-left:30px;
    margin-right:30px;
  }
-
+ .index-last-row{
+    background: rgb(19,99,171);
+    background: linear-gradient(366deg, #3878bd 10%, rgb(6, 30, 134) 79%);     }
+.index-copyrights {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
 
  /*--------------------------------------main*/
 
