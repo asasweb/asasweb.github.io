@@ -109,6 +109,10 @@ html{
 .index-counter-row h1,.index-counter-row h2{
   width: 100%;
 }
+.index-counter-row h1{
+  color: black !important;
+  padding-top:5%;
+}
 
 
 /*second row*/
@@ -189,6 +193,8 @@ html{
   -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.42); 
   box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.42);
   padding: 0 !important;
+  height: 88%;
+    margin-top: 2%;
 }
 .index-carousel-header{
   height: 40%;
@@ -354,6 +360,9 @@ html{
   .index-services-footer {
     text-align: right;
     padding-top: 6%;
+  }
+  .index-services-footer a, .index-main-footer a{
+    color: white !important;
   }
   .index-footer-services-wrapper{
     padding-top: 2%;
