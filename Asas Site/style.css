@@ -388,6 +388,7 @@ background: linear-gradient(90deg, #011d6b 10%, #0062cc 79%);  height: 62%;
   }
   .index-social-footer-button{
     height: 100%;
+        width: 100%;
   }
   .social-button-1, .social-button-2, .social-button-3, .social-button-4, .social-button-5, .social-button-6{
     width: 60%;
@@ -688,6 +689,21 @@ margin-top: 50%;
 
   }
 
+  .index-social-footer-button{
+    height: 57%;
+    display: flex !important;
+    width: 100%;
+    flex-wrap: nowrap !important;
+    padding-left: 10px !important;
+  }
+  .index-footer-social{
+    height: 15%%;
+    margin-top: 24% !important;
+    margin-left: -4%!important;
+  }
+  .no-mb{
+    display: none !important;
+  }
   .index-ninth-row-left{
     height: 52%;
   }
