@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'FrutigerLT';
+    src: url('FrutigerLTArabic-55Roman.eot');
+    src: url('FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
+        url('FrutigerLTArabic-55Roman.woff2') format('woff2'),
+        url('FrutigerLTArabic-55Roman.woff') format('woff'),
+        url('FrutigerLTArabic-55Roman.ttf') format('truetype'),
+        url('FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
+}
+@font-face {
+	font-family: 'Hacen Samra';
+	src: url('HacenSamra.eot');
+    src: url('HacenSamra.eot?#iefix') format('embedded-opentype'),
+        url('HacenSamra.woff2') format('woff2'),
+        url('HacenSamra.woff') format('woff'),
+        url('HacenSamra.ttf') format('truetype'),
+        url('HacenSamra.svg#HacenSamra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+  font-family: FontName1;
+  src: url("fontname1.eot"); 
+  src: local('FontName1'), url('fontname1.ttf') format('truetype');
+}
+@font-face {
+  font-family: FontName2;
+  src: url("fontname1.eot"); 
+  src: local('FontName2'), url('fontname2.ttf') format('truetype');
+}
+@font-face {
+  font-family: FontName3;
+  src: url("fontname1.eot"); 
+  src: local('FontName3'), url('fontname3.ttf') format('truetype');
+}
+*/
